@@ -7,6 +7,7 @@ Hello World
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>First day</title>
 </head>
 <body>
