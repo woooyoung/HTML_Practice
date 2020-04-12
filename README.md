@@ -26,4 +26,22 @@ Hello World
 </html>
 ```
 
+
 ### html02
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>2nd day</title>
+</head>
+<body>
+<h1>둘쨰 날 입니다.</h1>
+<p>아직 뭘 해야 할지 모르겠어</p>
+<p>이것 저것 <br>넣어보는 중</p>
+<button>Click me</button>
+<p style="color:red">이건 빨간색 </p>
+
+</body>
+</html>
+```
