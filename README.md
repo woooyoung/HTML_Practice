@@ -45,3 +45,25 @@ Hello World
 </body>
 </html>
 ```
+
+
+### html03
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>3rd day</title>
+</head>
+<body>
+<pre>셋째 날 입니다. 
+html기초 공부 중
+서버가 돌아가지 않는데 이유를 못 찾는 중
+</pre>
+<body style="background-color:powderblue;">
+<p style="font-family:courier;">바탕체 계열</p>
+<p style="font-size:160%;">폰트 사이즈 160%</p>
+<p style="text-align:right;">문단 우측 정렬 </p>
+</body>
+</html>
+```
