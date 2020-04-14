@@ -67,3 +67,46 @@ html기초 공부 중
 </body>
 </html>
 ```
+
+###html04
+```html
+<html>
+<head>
+<meta charset="UTF-8">
+<title>4th day</title>
+</head>
+<body><p>html 공부 시작 4일</p>
+<p>아직 원인을 모르겠어요</p>
+<h2>이건 <small>작은</small>글자</h2>
+<p>이게<del>이거</del>였구나</p>
+<p>이</p>
+
+<blockquote cite="인용한 웹 주소">
+인용문 입니다.
+</blockquote>
+<bdo dir="rtl">거꾸로 쓰는 중</bdo>
+<!-- 코멘트 브라우저 상에 나타나지 않음 -->
+<h1 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h1>
+<!-- RGB 색 참고 -->
+<h1 style="background-color:#ff0000;">#ff0000</h1>
+<h1 style="background-color:#0000ff;">#0000ff</h1>
+<h1 style="background-color:#3cb371;">#3cb371</h1>
+<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+<h1 style="background-color:#ffa500;">#ffa500</h1>
+<h1 style="background-color:#6a5acd;">#6a5acd</h1>
+<!-- HEX 색 참고 -->
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+<h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+<h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h1>
+<h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
+<h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
+<!-- HSL 색 참고 -->
+</body>
+</html>
+```
