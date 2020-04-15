@@ -68,7 +68,7 @@ html기초 공부 중
 </html>
 ```
 
-###html04
+### html04
 ```html
 <html>
 <head>
@@ -79,7 +79,6 @@ html기초 공부 중
 <p>아직 원인을 모르겠어요</p>
 <h2>이건 <small>작은</small>글자</h2>
 <p>이게<del>이거</del>였구나</p>
-<p>이</p>
 
 <blockquote cite="인용한 웹 주소">
 인용문 입니다.
@@ -107,6 +106,49 @@ html기초 공부 중
 <h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
 <h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
 <!-- HSL 색 참고 -->
+</body>
+</html>
+```
+
+### html05-1
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>5th day</title>
+<style>
+body {background-color: black;}
+h1   {color: yellow;}
+p    {color: white;}
+#p01 {
+  color: grey;
+}
+</style>
+</head>
+<body>
+<h1>Internal CSS: 내부 스타일 시트</h1>
+<p>HTML문서내에서 head사이에 스타일을 정의하는 방법이다.</p>
+<p id="p01">이 문장만 다르게 할 수도 있다.</p>
+</body>
+</html>
+```
+
+
+### html05-2
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>5th day</title>
+</head>
+<body>
+<h1>CSS: stands for Cascading Style Sheets.</h1>
+<p style="color:blue; font-family: courier; font-size: 300%;"> Inline Styles(HTML 태그 내에 스타일 지정): 
+스타일을 적용하고 싶은 HTML태그안에서 정의하는 방법이다.</p>
+<p>External Style Sheet(외부 스타일 시트): css라는 확장자를 가진 스타일 시트 파일을 만들고 이 파일을 HTML 문서에 연결하여 사용하는 방법이다.</p>
+
 </body>
 </html>
 ```
