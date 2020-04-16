@@ -152,3 +152,32 @@ p    {color: white;}
 </body>
 </html>
 ```
+
+
+### html06
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>6th day</title>
+<style>
+div.first {
+  opacity: 0.3;
+}
+h1 {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+<h1 style="border: 3px solid Tomato;">여섯 째 날 입니다.</h1>
+<pre>현재 html,css,포토샵,일러스트
+공부를 병행 하고 있어요.
+할 공부가 넘치는데 시간은 빨리 가는 기분입니다.</pre> <!-- 사실 포토샵과 일러스트 위주로 하는 중 -->
+<div class="first">
+  <p>opacity 0.3</p> <!-- 불투명도 -->
+</div>
+</body>
+</html>
+```
