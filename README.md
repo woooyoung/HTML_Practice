@@ -181,3 +181,34 @@ h1 {
 </body>
 </html>
 ```
+
+
+### html07
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>7th day</title>
+<style>
+body {background-color: lightgrey;}
+h1   {color: royalblue;}
+h3   {color: lightcoral}
+p    {color: black;}
+p    {text-indent: 20px;}
+a {
+  color: blue;
+}
+</style>
+</head>
+<body>
+<h1>오늘은 한 것 들을 좀 정리 해보려 합니다.</h1>
+<p>1. photoshop : 현재 cs6 version으로 공부 중 입니다.<br> 기본적인 툴 사용법을 익히고 있습니다.</p>
+<p>2. illustrator : cc version으로 공부 중 입니다.<br> 위와 마찬가지로 기본적인 사용 법을 익히고 있습니다. </p>
+<p>3. html,CSS : <a href="https://www.w3schools.com/html/">w3school.com</a>을 참고하여 공부 하고 있습니다.<br>
+예상보다 양이 방대하여 이것 저것 경험해 보는 것에 중점을 두고 있습니다.</p>
+<p>4. java : 이론 적인 부분을 공부하고 있습니다.</p>
+<h3>이번 주말에 좀 더 상세하게 정리하여 내가 할 수 있는 부분과 앞으로 공부 할 부분을 파악 해보겠습니다.</h3>
+</body>
+</html>
+```
