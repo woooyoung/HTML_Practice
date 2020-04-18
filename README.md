@@ -212,3 +212,89 @@ a {
 </body>
 </html>
 ```
+
+### html08
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8th day</title>
+<style>
+body {background-color: white;}
+h1   {color: rosybrown;}
+p    {color: black;}
+p    {text-indent: 10px;}
+td   {color: black}
+th   {color:brown}
+caption {color:chocolate}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 6px;
+}
+</style>
+</head>
+<body>
+  <h1>정리해 보자면</h1>
+  
+
+  <table style="width: 50%">
+    <caption>공부 한 영역</caption>
+    <tr>
+      <th>photoshop</th>
+      <th>illustrator</th> 
+      <th>html</th>
+      <th>JAVA</th>
+    </tr>
+    <tr>
+      <td>선택윤곽 도구</td>
+      <td>선택,직접 선택 도구</td>
+      <td>Elements</td>
+      <td>특징</td>
+    </tr>
+    <tr>
+      <td>올가미 도구</td>
+      <td>올가미 도구</td>
+      <td>Attributes</td>
+      <td>제어</td>
+    </tr>
+    <tr>
+      <td>빠른 선택 도구</td>
+      <td>펜 도구</td>
+      <td>Headings</td>
+      <td>타입</td>
+    </tr>
+    <tr>
+      <td>브러쉬 도구</td>
+      <td>문자 도구</td>
+      <td>Paragraphs</td>
+      <td></td>
+    </tr> 
+    <tr>
+      <td>스탬프 도구</td>
+      <td></td>
+      <td>Styles</td>
+      <td></td>
+    </tr> 
+    <tr>
+      <td>그라데이션 도구</td>
+      <td></td>
+      <td>Text Formatting</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Links</td>
+      <td></td>
+    </tr>
+  </table>
+<p>CSS는 내용이 방대하여 추후 따로 정리해 보도록 한다.</p>
+
+  <!--영역에 따른 내용 정리가 필요하다.-->
+</body>
+</html>
+```
