@@ -298,3 +298,31 @@ th, td {
 </body>
 </html>
 ```
+
+### html09
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>9th day</title>
+    <style> 
+    .first {background-color: black;}
+    .second {background-color: brown;}
+    .third{background-color: white;}
+    body{background-color: grey;}
+    h1{color:yellowgreen}
+    p{color:white}
+    #p01{color:black}
+    </style>
+    
+</head>
+<body>
+    <h1><span style="border:1px solid red">아홉</span> 째 날</h1>
+    <br><div class="first"><p>visual studio code의 사용빈도가 eclipse의 사용빈도를 넘었다.</p></div>
+    <br><div class="second"><p>손에 익기 전에 도움을 받는 느낌이어서 좋긴 하지만 실질적으론 도움이 되지 않을 것 같다</p></div>
+    <br><div class="third"><p id=p01>1일 1commit을 목표로 하고 있지만 쉽지 않아, 습관을 들이는게 중요할 것 같다.</p></div>
+
+</body>
+</html>
+```
