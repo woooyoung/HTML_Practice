@@ -326,3 +326,51 @@ th, td {
 </body>
 </html>
 ```
+
+### html10
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>10th day</title>
+        <style>
+            h1{color:gold;,font-size: 5px;}
+            body{background-color:snow;}
+            p{color:black;,font-size: 3px;}
+            h2{color:gray}
+            p{text-indent: 15px;}
+            ul{color:grey}
+            li{color:black}
+        </style>
+
+    </head>
+    <body>
+        <h1>자바스크립트(JavaScript)</h1>
+        <h2>기초</h2>
+        <p>1.자바스크립트는 html의 내용을 바꿀 수 있다.</p>
+        <!--getElenentById() 를 이용하여 요소를 가져온다.-->
+        <!--document.getElementById().innerHTML = "Hello JavaScript";-->
+        <p>2.자바스크립트는 html의 속성값을 바꿀 수 있다.</p>
+        <!--getAttribute() 는 선택한 요소의 속성값을 가져온다.-->
+        <p>3.자바스크립트는 html의 스타일을 변경할 수 있다.</p>
+        <!--CSS 속성을 이용하여 태그에 직접 설정할 수 있다.-->
+        <!--document.getElementById().style.fontsize = "10px";-->
+        <p>4.자바스크립트는 html 요소를 숨길 수 있다.</p>
+        <!--document.getElementById().style.display ="none";-->
+        <p>5.자바스크립트는 html 요소를 나타낼 수 있다.</p>
+        <!--document.getElementById().style.display = "block";-->
+        <br><h2>위치</h2>
+        <p>1.html에서는 script태그 내에 입력한다.</p>
+        <!--<script>-->
+        <p>2.자바스크립트는 head,body 또는 양 쪽에 자 위치할 수 있다.</p>    
+        <p>3.외부에도 위치가 가능한데 이는 script 태그의 src(소스)속성에 넣는다.</p>
+        <!--<script src="myScript.js"></script>-->
+        <ul>장점
+            <li>html과 코드를 분리한다.</li>
+            <li>쉽게 읽고 관리 할 수 있다.</li>
+            <li>캐시 된 자바스크립트 파일은 pageload 속도를 높일 수 있다.</li>
+        </ul>
+    </body>
+</html>
+```
