@@ -374,3 +374,83 @@ th, td {
     </body>
 </html>
 ```
+
+### html11
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--viewport:화면 상의 표시 영역-->
+    <!--divice~장치의 크기에 맞춰서-->
+    <!--initial-scale:초기 화면 배울(zoom레벨)-->
+    <!--브라우저의 크기를 조정하면 변한다.-->
+    <title>11th day</title>
+    <!--content-box : 콘텐트 영역을 기준으로 크기를 정합니다.
+         border-box : 테두리를 기준으로 크기를 정합니다.
+          initial : 기본값으로 설정합니다.
+           inherit : 부모 요소의 속성값을 상속받습니다.-->
+    <!--@media:반응 형 레이아웃-메뉴와 내용 (섹션 내부)을 나란히 놓지 않고 서로 위에 놓습니다.-->
+    <style>
+        {box-sizing: border-box;
+        }
+        body{font-family: Arial, Helvetica, sans-serif;}
+        header{background-color: darkgray;
+        padding:30px;
+        text-align:center;
+        font-size: 30px;
+        color:black}
+
+
+        section{display: -webkit-flex;
+                display: flex;}
+        nav{-webkit-box-flex: 1;]
+        -ms-flex:1;
+        background:yellow;
+        padding:20;
+        }
+        nav ul{list-style-type:square;
+        padding:0;
+        color: black;
+        }
+        article{-webkit-webkit: flex 3;
+        -ms-webkit: flex 3;
+        flex:3;
+        background-color:lightskyblue;
+        padding:10px;
+        color:red
+        }
+        footer{background-color: gray;
+        padding: 10px;
+        text-align: right;
+        color:blue;
+        }
+        @media (max-width: 600px;){
+            section{-webkit-flex-direction: column;
+            flex-direction:column}
+        }
+
+        
+    </style>
+    
+        
+</head>
+<body><h1>CSS의 레이아웃에 대하여</h1>
+    <header><h2>여기는 header자리</h2></header>
+    <section>
+        <nav>
+            <ul>
+                <li>여기는</li>
+                <li>nav</li>
+                <li>자리</li>
+            </ul>
+        </nav>
+        <article><h2>여기는</h2>
+            <p>article</p>
+        <p>자리</p></article>
+    </section>
+    <footer><p>이 곳은 footer</p></footer>
+</body>
+</html>
+```
