@@ -454,3 +454,35 @@ th, td {
 </body>
 </html>
 ```
+
+### html12
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>12th day</title>
+    </head>
+    <body>
+        <h1>반응형 웹 디자인?</h1>
+        <p>html,CSS를 이용하여 웹사이트의 크기를 자동으로 조정,숨기기,축소,확대하여 모든 장치에서 보기 편하도록 한다.</p>
+        
+        <ul><li>viewprot</li>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        의 유무로 기기에서 변화 하는 모습을 확인 했다.-->
+        <li>images</li>
+        <!--<img src="img_girl.jpg" style="width:100%;"> 
+            :너비 속성을 100%로 설정하면 이미지가 반응형이 된다.-->
+        <li>text</li>
+        <!--<h1 style="font-size:10vw">Hello World</h1>
+        :vw=> view-width(뷰포트 너비)로 브라우저 창 크기에 텍스트 크기를 따라가게 한다. -->
+        <li>media</li>
+        <!--Media Queries를 사용하여 다양한 브라우저 크기에 다른 스타일을 정의 할 수 있다.
+        참조::https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3-->
+        </ul>
+        <p>기본 CSS, jQuery, 또는 Bootstrap을 이용한다.</p>
+
+    </body>
+</html>
+```
