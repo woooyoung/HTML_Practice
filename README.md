@@ -508,3 +508,30 @@ th, td {
     </pre>
 </body>
 ```
+
+### html14
+```html
+<!DOCTYPE html>
+<head>
+    <meta charset="UTf-8">
+    <title>14yh day</title>
+
+</head>
+<body>
+    <h1>CSS의 위치속성</h1>
+    <p>position 속성은 요소에 사용되는 위치 결정 방법의 유형을 지정한다.</p>
+    <ul>
+        <li>static</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>sticky</li>
+    </ul>
+    <p>요소는 top, bottom, left, right의 속성을 사용하여 배치하는데<br>position 속성을 먼저 설정하지 않으면 작동하지 않는다.</p>
+    <br><p>static:정적 ->>html요소는 기본적으로 정적 위치에 있고, top, bottom등의 속성에 영향을 받지 않는다.</p>
+    <br><p>relative: 상대->>정상 위치를 기준으로 일반 위치에서 멀어지도록 조정된다.  </p>
+    <br><p>fixed: 고정->>뷰포트에 상대정으로 배치. 페이지가 스크롤 되어도 항상 같은위치에 유지된다.</p>
+    <br><p>absolute: 절대->>고정 된 것처럼 뷰포트에 배치되는 대신 가장 가까운 위치에 위치한 조상에 대해 배치된다.</p>
+    <br><p>sticky: 사용자의 스크롤 위치를 기준으로 배치된다. </p>
+</body>
+```
