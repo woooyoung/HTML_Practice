@@ -535,3 +535,61 @@ th, td {
     <br><p>sticky: 사용자의 스크롤 위치를 기준으로 배치된다. </p>
 </body>
 ```
+
+
+# JAVA
+
+### type
+```java
+package test2;
+
+public class type {
+
+	public static void main(String[] args) {
+
+		char car = 'D' - 3;
+
+		char car1 = 'A';
+		char car2 = 'B';
+		char car3 = 'C';
+		System.out.println(car1);
+		System.out.println(car2);
+		System.out.println(car3);
+		char[] car = { 'A', 'B', 'C' };
+
+//		car[0]
+//		car[1]
+//		car[2]
+		for (int i = 0; i < car.length; i++) {
+			System.out.println(car[i]);
+		}
+
+		System.out.println(car.length);
+		char[] carr = new char[] { 'A', 'b', 'c' };
+		System.out.println(ca);
+		System.out.println(car);
+		car[0] = 'F';
+		System.out.println(car);
+
+
+		System.out.println(carr);
+		carr = new char[] { 'B', 'F', 'G', 'Y' }; 
+		System.out.println(carr);
+
+		int as = 0;
+		int[] a = { 1, 2, 3 };
+		int[] an = new int[] { 1, 2, 3 };
+
+		long lo = 1L;
+		float fo = 1.0f;
+		double dou = 1.0001;
+
+		char[] c = new char[3];
+		String[] s = new String[3];
+		long[] l = new long[3];
+
+		char[][] c2 = new char[3][3];
+
+	}
+}
+```
