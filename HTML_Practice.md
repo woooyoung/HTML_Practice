@@ -1,5 +1,5 @@
 # HTML_Practice
-
+## visual studio
 ### html 01
 Hello World
 
@@ -534,4 +534,108 @@ th, td {
     <br><p>absolute: 절대->>고정 된 것처럼 뷰포트에 배치되는 대신 가장 가까운 위치에 위치한 조상에 대해 배치된다.</p>
     <br><p>sticky: 사용자의 스크롤 위치를 기준으로 배치된다. </p>
 </body>
+```
+
+## Brackets
+### day01
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> 텍스트 관련 태그 </title>
+    </head>
+    
+    <body>
+    <h1>제목태그, 제목을 나타내고 구분짓는 태그</h1>
+        <h2>header</h2>
+        <h3>header</h3>
+        <h4>header</h4>
+        <h5>header</h5>
+        <h6>header</h6>
+        
+        <p>단락태그, <br/>본문을 나타내기 위한 태그</p>
+        <!-- h태그와 p태그는 서로 상속 될 수 없음! -->
+        
+        <!--수평선을 나타내는 태그 / 단락을 구분짓는 용도로 사용-->
+        <hr/>
+        <p>인용문을 나타내는 태그</p>
+        <blockquote>이 글은 인용 되었습니다.</blockquote>
+        
+        <h1>imagine</h1>
+        <hr/>
+        <p>imagine there's no heaven It's easy if you try<br/>No hell below us Above us only sky Imagine all the people</p>
+        <hr/>
+        <blockquote>John Lennon</blockquote>
+        <hr/>
+        <pre>
+                공백이나 줄 바꿈 결 과 값 을 
+               그대로 보여주는 태그</pre>
+        
+    </body>
+</html>
+```
+
+### day02
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> 글자를 꾸며주는 태그 </title>
+    </head>
+    
+    <body>
+        <strong>글자를 굵게- 중요한 것들을 강조</strong><br/>
+        <b> 글자의 굵기- 굵은 글꼴</b><br/>
+        <hr/>
+        <em>이탤릭체로 표현</em><br/>
+        <i>주변의 문장과 다른 의미의 느낌을 표현</i><br/>
+        <hr/>
+        <mark>형관펜 같은 표현- 부분의 강조(색채움)</mark>
+        <hr/>
+        <ins>글자아래 밑줄</ins><br/>
+        <u>밑줄표현</u><br/>
+        <del>취소선 표현</del>
+        
+        <hr/>
+        
+        글자가 아래로 작아지는 <sub>아래첨자</sub><br/>
+        글자가 위로 작아지는 <sup>위첨자</sup><br/>
+        
+        <hr/>
+        
+        <span>글자를 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;꾸며주는 역할</span>
+        
+        <hr/>
+        
+        <!--ul > 목록태그 / 순서가 없는 목록태그
+            ol > 목록태그 / 순서가 있는 목록태그
+            
+            ul,ol > li(필요)-->
+        <ul>
+        <li>순서가 없는 목록태그</li>
+        <li>앞에 자동으로 부호가 생성</li>
+        <li>네비게이션 메뉴 - 중요!</li>
+        </ul>
+        
+        <ol>
+        <li>순서가 있는 목록태그</li>
+        <li>앞에 자동으로 순서가 생성</li>
+        <li>많이 사용하지 않음</li>
+        </ol>
+        
+        <hr/>
+        
+        <!--정의 목록태그 : 특정 용어와 정의를 설명할때 사용-->
+        <dl>
+        <dt>정의 될 단어</dt>
+        <dd>정의 할 내용, 정의 될 내용</dd>
+        </dl>
+    </body>
+</html>
 ```
