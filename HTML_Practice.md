@@ -537,7 +537,7 @@ th, td {
 ```
 
 ## Brackets
-### day01
+### Text 관련태그 01
 ```html
 <!DOCTYPE html>
 <html>
@@ -578,7 +578,7 @@ th, td {
 </html>
 ```
 
-### day02
+### Text 관련태그 02
 ```html
 <!DOCTYPE html>
 <html>
