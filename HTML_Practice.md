@@ -537,7 +537,7 @@ th, td {
 ```
 
 ## Brackets
-### Text 관련태그 01
+### Text 관련 태그 01
 ```html
 <!DOCTYPE html>
 <html>
@@ -578,7 +578,7 @@ th, td {
 </html>
 ```
 
-### Text 관련태그 02
+### Text 관련 태그 02
 ```html
 <!DOCTYPE html>
 <html>
@@ -638,4 +638,68 @@ th, td {
         </dl>
     </body>
 </html>
+```
+
+### Table 관련 태그
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Table 관련 태그 </title>
+    </head>
+    
+    <body>
+        <!--<table border="1" cellpadding="10" cellspacing="5" width="500">
+        <tr>
+            <th>title</th>
+            <th>title</th>
+            <th>title</th>
+            </tr>
+            <tr>
+            <td width="150">table_1</td>
+            <td width="100">table_1</td>
+            <td width="250">table_1</td>
+            </tr>
+            <tr>
+            <td height="80">table_1</td>
+            <td>table_1</td>
+            <td bgcolor="#f00">table_1</td>
+            </tr>
+        </table>
+        -->
+        <h1>셀의 병합</h1>
+        <!--2줄 2칸-->
+        <!--가로로 병합, colspan="가로로 묶을 칸의 합"-->
+        <table border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2">colspan</th>
+        </tr>
+        <tr>
+            <td>가로병합</td>
+            <td>가로병합</td>
+         </tr></table><br/>
+        <!--새로로 병합, rowspan="세로로 묶을 칸의 합"-->
+        <table border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <th rowspan="2">rowspan</th>
+            <th>rowspan</th>
+        </tr>
+        <tr>
+            <td>세로병합</td>
+         </tr>
+        </table><br/>
+        
+        <!--caption : 해당 테이블의 표의 의미, 타이틀-->
+        <table border="1">
+        <caption>테이블의 제목</caption>
+        <tr>
+            <td>table_1</td>
+            <td>table_2</td>
+            </tr>
+        </table>
+    </body>
+</html> 
 ```
