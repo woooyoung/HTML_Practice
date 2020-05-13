@@ -703,3 +703,31 @@ th, td {
     </body>
 </html> 
 ```
+
+### 하이퍼텍스트링크
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> a_link </title>
+    </head>
+    
+    <body>
+        <p>a링크에 관해</p>
+            <!--인터넷 페이지로 연결 http://(인터넷주소)-->
+        <a href="http://www.naver.com">네이버로 이동하기</a>
+        
+        <p>
+           <!--빈 링크, 임시링크 표시-->
+            <a href="#">임시링크</a>
+        </p>
+        <p>
+           <!--페이지 전환, html문서 연결-->
+            <a href="">페이지 이동</a>
+        </p>
+    </body>
+</html>
+```
